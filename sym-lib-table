@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "old") (type "KiCad") (uri "/Users/krishp/Documents/kicad libs/PDL_kicad_symbols/PDL_MasterLib.kicad_sym") (options "") (descr "") (disabled) (hidden))
+	(lib (name "teensy") (type "KiCad") (uri "/Users/krishp/Documents/kicad libs/PDL_kicad_symbols/teensy.kicad_sym") (options "") (descr "") (disabled))
+	(lib (name "DJ06S2405A") (type "KiCad") (uri "/Users/krishp/Documents/kicad libs/PDL_kicad_symbols/DJ06S2405A.kicad_sym") (options "") (descr "") (disabled))
+	(lib (name "PDL_MasterLib") (type "KiCad") (uri "${KIPRJMOD}/PDL_kicad_symbols/PDL_MasterLib.kicad_sym") (options "") (descr ""))
+)
