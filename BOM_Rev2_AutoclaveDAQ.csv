@@ -1,0 +1,24 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Exclude from Simulation,Exclude from Position Files,Footprint,Datasheet,DigiKey_Part_Number,,,Actual Quantity,,Notes
+"C1,C3,C4",3,10u,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/926/CL_Series_MLCC_ds.pdf,1276-2872-1-ND,,,8,,Parts counted as per 2 boards
+"C2,C6,C8,C10,C11,C12,C13",7,0.1u,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD,399-C0805C104K5RACTUCT-ND,,,16,,
+"C5,C7,C9",3,0.22u,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD,399-C0805C224K5RACTUCT-ND,,,8,,
+"D1,D2,D3,D4,D5",5,Freewheeling diode,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:SMA_403AE_OSI-L,https://www.onsemi.com/pub/Collateral/S1M-D.PDF,S1BFSCT-ND,,,12,,
+"J1,J6,J7,J8",4,"Pressure Sense Connector,RTD1 Connector,RTD2 Connector,RTD3 Connector",,,,,${EXCLUDE_FROM_POS_FILES},Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,https://www.jst-mfg.com/product/pdf/eng/eXH.pdf,455-B4B-XH-A-ND,,,10,,
+"J2,J5",2,"Heater Connector,Wall 120V",,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:molex_connector,https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf,,,,6,,
+J3,1,J1B1211CCD,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:CONN12_J1B1211CCD_WIZ,https://cdn.sparkfun.com/assets/0/4/9/9/a/DS-18615-Ethernet_Kit_for_Teensy_4.1.pdf,,,,4,,
+J4,1,431602102,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:molex_connector,https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf,WM18478-ND,,,4,,
+"J9,J11",2,"Valve 1 Connection,Valve 2 Connection",,,,,${EXCLUDE_FROM_POS_FILES},Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,https://www.jst-mfg.com/product/pdf/eng/eXH.pdf,,,,6,,
+PS1,1,R-78K5.0-2.0L,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:CONV_R-78K5.0-2.0L,,945-R-78K5.0-2.0L-ND,,,2,,2 Power supply modules
+"Q1,Q2,Q3",3,AO3400A,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:SOT-23,http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf,785-1000-1-ND,,,8,,
+"R1,R2,R3",3,10k,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,,,,,8,,
+"R4,R5,R6",3,10k,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf,RMCF0805FT10K0CT-ND,,,8,,
+"R7,R12",2,100k,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,P100KDACT-ND,,,6,,
+R8,1,1k,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,https://www.vishay.com/docs/20035/dcrcwe3.pdf,541-1.00KCCT-ND,,,4,,
+"R9,R10,R11",3,4k,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,https://www.seielect.com/catalog/SEI-RNCF.pdf,738-RNCF0805BTY4K00CT-ND,,,8,,
+S1,1,Crimp Attachments,,,Excluded from board,Excluded from simulation,${EXCLUDE_FROM_POS_FILES},,https://www.jst-mfg.com/product/pdf/eng/eXH.pdf,455-1135TR-ND,,,50,,
+S3,1,2 Pin Adapter,,,Excluded from board,Excluded from simulation,${EXCLUDE_FROM_POS_FILES},,,455-2266-ND,,,6,,
+S4,1,4 Pin Adapter,,,Excluded from board,Excluded from simulation,${EXCLUDE_FROM_POS_FILES},,,455-2267-ND,,,10,,
+"U2,U3,U4",3,MAX31865AAP+,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:21-0056C_20_MXM-M,MAX31865AAP+,MAX31865AAP+,,,7,,
+"U7,U8,U9",3,T9GS1L14-5,,,,,${EXCLUDE_FROM_POS_FILES},PDL_kicad_footprints:RELAY5_T9GS1L14-5_TEC,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773924-8_PB_30A_PCB_RelayT9G&DocType=Data+Sheet&DocLang=English&PartCntxt=1558666-1&DocFormat=pdf,PB2389-ND,,,5,,5 Relays
+,3,Molex 2 pinAdapter,,,,,,,,WM18463-ND,,,6,,
+,6,Molex Crimp Attachments,,,,,,,,WM9174CT-ND,,,12,,

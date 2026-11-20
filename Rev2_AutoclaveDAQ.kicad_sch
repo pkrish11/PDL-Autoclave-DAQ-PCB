@@ -671,7 +671,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PDL_kicad_footprints:Teensy41"
+			(property "Footprint" ""
 				(at -10.16 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -682,7 +682,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/sparkfun-electronics/16996/13158152"
+			(property "Datasheet" ""
 				(at -10.16 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2693,20 +2693,8 @@
 		)
 	)
 	(rectangle
-		(start 115.57 160.02)
-		(end 165.1 180.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3b69d2c8-5275-46d4-96ff-5537f377f70a")
-	)
-	(rectangle
-		(start 102.87 128.27)
-		(end 152.4 148.59)
+		(start 114.3 172.72)
+		(end 163.83 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -2717,8 +2705,8 @@
 		(uuid "437c3124-ece7-4350-a773-4943f1d35d5b")
 	)
 	(rectangle
-		(start 224.79 130.81)
-		(end 278.13 154.94)
+		(start 224.79 138.43)
+		(end 278.13 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -2730,7 +2718,7 @@
 	)
 	(text "Adapters and crimp attachments for JST connectors\nNot on board, placed here for BOM\n"
 		(exclude_from_sim no)
-		(at 254 128.27 0)
+		(at 254 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2738,19 +2726,9 @@
 		)
 		(uuid "50ab8c7c-630e-4d2b-83a7-857dd8453f08")
 	)
-	(text "Mounting holes for ethernet adapter.\nLeft to verify mounting hole sizes\n"
-		(exclude_from_sim no)
-		(at 134.62 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7399de36-caa5-47c8-8c94-898b72502110")
-	)
 	(text "Mounting holes for PCB.\n"
 		(exclude_from_sim no)
-		(at 121.92 125.73 0)
+		(at 133.35 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,12 +2749,6 @@
 		(uuid "31ecaf29-0a5d-4e5c-924a-d0ebacf37b9a")
 	)
 	(junction
-		(at 74.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32bbe1a1-2452-4d07-bac2-de7a6d41d552")
-	)
-	(junction
 		(at 129.54 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2793,12 +2765,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a02005bc-7424-4d6d-88a0-da00eb267fb3")
-	)
-	(junction
-		(at 59.69 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a24ff355-61f4-4d9a-8122-05fa21fbccc7")
 	)
 	(junction
 		(at 91.44 91.44)
@@ -2819,24 +2785,18 @@
 		(uuid "b72fd8c0-3de5-4f57-9c47-f091ac826740")
 	)
 	(junction
-		(at 67.31 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b94682f4-740e-4087-a9b0-2985468f0e3a")
-	)
-	(junction
 		(at 227.33 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3dd4c5-37c0-4cab-a838-a12a038365c5")
 	)
 	(no_connect
-		(at 153.67 62.23)
-		(uuid "018988dc-cccd-4c64-bddf-1dcf9f666275")
-	)
-	(no_connect
 		(at 209.55 62.23)
 		(uuid "03ead691-980a-4c39-b3fb-3200d0251c51")
+	)
+	(no_connect
+		(at 153.67 52.07)
+		(uuid "07fc48e7-5554-43ef-8c47-7216a765f1dd")
 	)
 	(no_connect
 		(at 153.67 64.77)
@@ -2845,10 +2805,6 @@
 	(no_connect
 		(at 153.67 95.25)
 		(uuid "21340a43-bb1d-4c1b-8941-ea1de27d029d")
-	)
-	(no_connect
-		(at 209.55 119.38)
-		(uuid "3ac7ec2b-8107-4de9-8b10-fe78eb150a59")
 	)
 	(no_connect
 		(at 153.67 97.79)
@@ -2891,10 +2847,6 @@
 		(uuid "706730b1-0cd5-4e85-a7fa-030043ace314")
 	)
 	(no_connect
-		(at 209.55 116.84)
-		(uuid "7e11f302-0be0-46f0-bc1d-a4cd5f136942")
-	)
-	(no_connect
 		(at 153.67 124.46)
 		(uuid "887be960-4d50-4039-8b30-7b295dba3ed0")
 	)
@@ -2927,10 +2879,6 @@
 		(uuid "a417c70a-7630-47e8-8d0e-ff11aa4d1d09")
 	)
 	(no_connect
-		(at 209.55 111.76)
-		(uuid "a756ddea-8c39-4816-b003-652505edbb6a")
-	)
-	(no_connect
 		(at 189.23 132.08)
 		(uuid "a7aa3c3e-4ccf-4ce3-b3bc-e83564aff834")
 	)
@@ -2953,10 +2901,6 @@
 	(no_connect
 		(at 153.67 119.38)
 		(uuid "b81ceae5-0b33-4873-b932-a1cb81e7b511")
-	)
-	(no_connect
-		(at 209.55 114.3)
-		(uuid "b8cff597-e3f5-4d33-9061-a8d30068e76b")
 	)
 	(no_connect
 		(at 209.55 67.31)
@@ -3003,16 +2947,8 @@
 		(uuid "f846bf65-13aa-4354-8a27-0b54533518c2")
 	)
 	(no_connect
-		(at 209.55 109.22)
-		(uuid "f8a07e50-8b8e-41c8-a4e5-9e6473af50d8")
-	)
-	(no_connect
 		(at 153.67 121.92)
 		(uuid "fbf54d86-76d6-4c1b-b6b6-883b5e3ea388")
-	)
-	(no_connect
-		(at 209.55 121.92)
-		(uuid "fc5fd734-303f-45fd-8331-65ec04c22e86")
 	)
 	(no_connect
 		(at 153.67 107.95)
@@ -3084,6 +3020,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 62.23) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109d4e58-a109-47e5-b881-366ba1833161")
+	)
+	(wire
+		(pts
 			(xy 209.55 49.53) (xy 209.55 50.8)
 		)
 		(stroke
@@ -3124,13 +3070,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 147.32 81.28)
+			(xy 209.55 111.76) (xy 210.82 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2238b947-980b-4b47-9a4b-65877c771442")
+		(uuid "2011045f-989f-4de8-b93e-141a6da12d26")
 	)
 	(wire
 		(pts
@@ -3314,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 124.46) (xy 81.28 124.46)
+			(xy 57.15 124.46) (xy 81.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3324,17 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 67.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639f130c-e507-474f-8cf9-97671ebb6b72")
-	)
-	(wire
-		(pts
-			(xy 74.93 137.16) (xy 81.28 137.16)
+			(xy 57.15 137.16) (xy 81.28 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3354,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75075459-2bb9-44c9-9b08-74c099915807")
+	)
+	(wire
+		(pts
 			(xy 215.9 52.07) (xy 215.9 50.8)
 		)
 		(stroke
@@ -3361,16 +3307,6 @@
 			(type default)
 		)
 		(uuid "80316808-ca44-4284-8deb-b027b6ff7679")
-	)
-	(wire
-		(pts
-			(xy 57.15 137.16) (xy 74.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b69c7d-4b9c-4d3d-b968-274f5319d955")
 	)
 	(wire
 		(pts
@@ -3444,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 121.92) (xy 218.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03659d2-fa9c-484d-9a35-dd8b0b86ce79")
+	)
+	(wire
+		(pts
 			(xy 97.79 87.63) (xy 97.79 88.9)
 		)
 		(stroke
@@ -3451,16 +3397,6 @@
 			(type default)
 		)
 		(uuid "a2f64746-97b3-455a-bb0f-730864501eba")
-	)
-	(wire
-		(pts
-			(xy 139.7 52.07) (xy 153.67 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1643383-5fc6-4052-a3a9-f814b56422ef")
 	)
 	(wire
 		(pts
@@ -3474,23 +3410,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 130.81) (xy 57.15 130.81)
+			(xy 57.15 130.81) (xy 81.28 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7b4fb38-73ce-4439-9c39-8af3c4a6c503")
-	)
-	(wire
-		(pts
-			(xy 57.15 124.46) (xy 59.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b888ef66-5537-4f86-b2d9-77b865574a86")
 	)
 	(wire
 		(pts
@@ -3504,13 +3430,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 130.81) (xy 67.31 142.24)
+			(xy 209.55 114.3) (xy 218.44 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c60d148d-0ba2-4e9a-ba94-7a45eea250af")
+		(uuid "be5f791c-0f4d-457f-9553-f3fa73247551")
 	)
 	(wire
 		(pts
@@ -3521,16 +3447,6 @@
 			(type default)
 		)
 		(uuid "c7607412-6fb5-496c-b3f0-859fdec9f38e")
-	)
-	(wire
-		(pts
-			(xy 59.69 124.46) (xy 59.69 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca598084-101a-44a7-9e3e-b0b57159184d")
 	)
 	(wire
 		(pts
@@ -3554,13 +3470,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 146.05 81.28)
+			(xy 146.05 80.01) (xy 153.67 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4775d15-7dbe-47dc-ad67-851e4a49cc1f")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db801851-2073-46c7-8615-9880226dbaa3")
 	)
 	(wire
 		(pts
@@ -3581,16 +3507,6 @@
 			(type default)
 		)
 		(uuid "e09b7cb1-92f8-4a9c-996b-e92d3036560e")
-	)
-	(wire
-		(pts
-			(xy 149.86 80.01) (xy 153.67 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2833351-6a39-4f2b-b030-add82b31a853")
 	)
 	(wire
 		(pts
@@ -3624,13 +3540,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 137.16) (xy 74.93 142.24)
+			(xy 209.55 116.84) (xy 218.44 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdec3d37-100d-49d2-8d35-e129d03f71e9")
+		(uuid "f8776f85-fac4-4358-87a4-47440bb81fc4")
 	)
 	(wire
 		(pts
@@ -3652,15 +3568,15 @@
 		)
 		(uuid "0873dfe3-3e43-4e98-ad29-765a0cdfda48")
 	)
-	(label "relay_heater"
-		(at 237.49 102.87 0)
+	(label "nDRDY_RTD3"
+		(at 140.97 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1c3eacc9-9c68-424d-801a-c6a6bfa8472c")
+		(uuid "1453a0e3-4c38-4d66-a14e-ac9e3e5f3173")
 	)
 	(label "nDRDY_RTD2"
 		(at 142.24 69.85 180)
@@ -3702,35 +3618,15 @@
 		)
 		(uuid "34796ab3-3412-4cfb-ba3d-51eba4909b5f")
 	)
-	(label "nDRDY_RTD3"
-		(at 149.86 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4560da2d-b155-4151-80bd-4f844ca2ea36")
-	)
-	(label "nDRDY_RTD1"
-		(at 139.7 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "459cf37b-5bff-4d5b-8c1b-11c3e09aaff2")
-	)
 	(label "nCS_RTD3"
-		(at 217.17 95.25 0)
+		(at 139.7 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5636323a-6a72-43e2-ae04-79b838d0ba1a")
+		(uuid "37b22e14-6212-4151-ac1d-a166636137a1")
 	)
 	(label "relay_p_outlet"
 		(at 223.52 100.33 0)
@@ -3741,6 +3637,26 @@
 			(justify left bottom)
 		)
 		(uuid "6d9c5df6-7c09-4a14-9f4a-2ea843f580af")
+	)
+	(label "nDRDY_RTD1"
+		(at 149.86 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81a00576-75eb-45a8-90d7-928005179b12")
+	)
+	(label "relay_heater"
+		(at 146.05 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "882e5f1a-213b-4fdd-8207-6c21af6e28cb")
 	)
 	(label "relay_p_inlet"
 		(at 81.28 137.16 0)
@@ -3792,6 +3708,16 @@
 		)
 		(uuid "acb4a8a2-e421-47af-8c7d-218c2e8e5b90")
 	)
+	(label "relay_p_inlet"
+		(at 237.49 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad69d4ef-af36-4ac3-86cf-bb802a3c76ca")
+	)
 	(label "nDRDY_RTD2"
 		(at 76.2 102.87 0)
 		(effects
@@ -3822,16 +3748,6 @@
 		)
 		(uuid "c3580365-55ac-4b65-a260-705c21d059ea")
 	)
-	(label "relay_p_inlet"
-		(at 146.05 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5be0f80-a723-4eb6-a8f8-9399ce7d902d")
-	)
 	(label "relay_heater"
 		(at 81.28 124.46 0)
 		(effects
@@ -3841,16 +3757,6 @@
 			(justify left bottom)
 		)
 		(uuid "d874a169-4dd0-4c6b-9eb3-34a09e6fa719")
-	)
-	(label "nCS_RTD1"
-		(at 139.7 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df5587ef-edff-4009-8c62-1f487de86874")
 	)
 	(label "pressure_sense"
 		(at 255.27 72.39 0)
@@ -3901,6 +3807,16 @@
 			(justify left bottom)
 		)
 		(uuid "f59cf055-21b5-4fd6-ba48-1e9b35032b73")
+	)
+	(label "nCS_RTD1"
+		(at 217.17 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe069c8f-baae-49f1-a9ca-525a7be89f0f")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3975,82 +3891,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 124.46 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11e50875-fa6b-4c3f-ad80-f9138915e110")
-		(property "Reference" "H13"
-			(at 127 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 127 167.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 124.46 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 124.46 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -4243,6 +4083,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 210.82 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ad9e5a-3679-4a47-b45f-4c31a047b1d1")
+		(property "Reference" "#PWR022"
+			(at 210.82 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c220bdc-3d5d-489f-9948-ed1f43c2bbef")
+		)
+		(instances
+			(project "Rev2_AutoclaveDAQ"
+				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 227.33 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -4392,160 +4311,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3629d991-08bb-42a6-b851-9f23ed52ac55")
-		(property "Reference" "#PWR07"
-			(at 59.69 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d818f16e-ce5c-4929-85ea-880680f68b8e")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 148.59 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "392e445b-535c-4c13-9b7c-489725ff1aa5")
-		(property "Reference" "H16"
-			(at 151.13 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 151.13 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 148.59 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 148.59 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -4716,98 +4481,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 74.93 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43666184-7fd2-40a8-bd72-713359ce76bf")
-		(property "Reference" "R3"
-			(at 77.47 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 77.47 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "RMCF0805FT10K0CT-ND"
-			(at 74.93 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "146af7fe-dd58-4ee3-8754-0bdb12b9f853")
-		)
-		(pin "2"
-			(uuid "ce61e01a-c4ac-426e-abbb-e7d5e1cf7a58")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4986,7 +4659,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 134.62 0)
+		(at 146.05 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4996,8 +4669,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6a73cf-7e74-46f7-888f-664e8d0d196b")
-		(property "Reference" "H19"
-			(at 137.16 133.3499 0)
+		(property "Reference" "H2"
+			(at 148.59 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5008,7 +4681,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.16 135.8899 0)
+			(at 148.59 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5019,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 134.62 134.62 0)
+			(at 146.05 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +4703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 134.62 0)
+			(at 146.05 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5041,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 134.62 134.62 0)
+			(at 146.05 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5054,7 +4727,7 @@
 		(instances
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H19")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5154,7 +4827,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Mechanical_Shape")
-		(at 260.35 149.86 0)
+		(at 260.35 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5165,7 +4838,7 @@
 		(fields_autoplaced yes)
 		(uuid "50bb9607-0f1d-4c46-b4b6-952e58d7685b")
 		(property "Reference" "S4"
-			(at 264.16 148.5899 0)
+			(at 264.16 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5176,7 +4849,7 @@
 			)
 		)
 		(property "Value" "4 Pin Adapter"
-			(at 264.16 151.1299 0)
+			(at 264.16 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5187,7 +4860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 154.94 0)
+			(at 260.35 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5198,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 146.05 0)
+			(at 260.35 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,7 +4882,7 @@
 			)
 		)
 		(property "Description" "Mechanical shape, non-electric, board outlines"
-			(at 260.35 149.86 0)
+			(at 260.35 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +4893,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "455-2267-ND"
-			(at 260.35 149.86 0)
+			(at 260.35 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Mechanical_Shape")
-		(at 231.14 137.16 0)
+		(at 231.14 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5252,7 +4925,7 @@
 		(fields_autoplaced yes)
 		(uuid "577b18e3-a9ef-4475-b7a8-97fe5bbc87de")
 		(property "Reference" "S1"
-			(at 234.95 135.8899 0)
+			(at 234.95 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5263,7 +4936,7 @@
 			)
 		)
 		(property "Value" "Crimp Attachments"
-			(at 234.95 138.4299 0)
+			(at 234.95 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5274,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 142.24 0)
+			(at 231.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +4958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-			(at 231.14 133.35 0)
+			(at 231.14 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +4969,7 @@
 			)
 		)
 		(property "Description" "Mechanical shape, non-electric, board outlines"
-			(at 231.14 137.16 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +4980,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "455-1135TR-ND"
-			(at 231.14 137.16 0)
+			(at 231.14 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5079,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Mechanical_Shape")
-		(at 260.35 137.16 0)
+		(at 260.35 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5417,7 +5090,7 @@
 		(fields_autoplaced yes)
 		(uuid "677cf4eb-4a66-4f6f-b45b-c553497dd118")
 		(property "Reference" "S3"
-			(at 264.16 135.8899 0)
+			(at 264.16 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5428,7 +5101,7 @@
 			)
 		)
 		(property "Value" "2 Pin Adapter"
-			(at 264.16 138.4299 0)
+			(at 264.16 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5439,7 +5112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 142.24 0)
+			(at 260.35 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 133.35 0)
+			(at 260.35 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5134,7 @@
 			)
 		)
 		(property "Description" "Mechanical shape, non-electric, board outlines"
-			(at 260.35 137.16 0)
+			(at 260.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5145,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "455-2266-ND"
-			(at 260.35 137.16 0)
+			(at 260.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,7 +5166,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 143.51 0)
+		(at 123.19 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5503,8 +5176,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a72ab80-8e04-4f2c-8e6e-5f20d185f7c8")
-		(property "Reference" "H18"
-			(at 114.3 142.2399 0)
+		(property "Reference" "H3"
+			(at 125.73 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5515,7 +5188,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 144.7799 0)
+			(at 125.73 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5526,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 111.76 143.51 0)
+			(at 123.19 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5537,7 +5210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 143.51 0)
+			(at 123.19 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +5221,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 111.76 143.51 0)
+			(at 123.19 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,7 +5234,7 @@
 		(instances
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H18")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5661,98 +5334,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 67.31 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75d33eed-4973-40a3-a70d-97f9e91cd574")
-		(property "Reference" "R2"
-			(at 69.85 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 67.31 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 67.31 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 67.31 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "RMCF0805FT10K0CT-ND"
-			(at 67.31 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02280520-37a6-4be0-85d1-79fa4a0906a4")
-		)
-		(pin "2"
-			(uuid "2068b1c7-071f-4b5e-aa7f-ca41cd70decc")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 49.53 0)
 		(unit 1)
@@ -5825,82 +5406,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 124.46 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fd9a990-6c60-4787-8b51-1cf048b63386")
-		(property "Reference" "H14"
-			(at 127 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 127 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 124.46 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -5999,7 +5504,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 146.05 81.28 0)
+		(at 146.05 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6009,7 +5514,7 @@
 		(dnp no)
 		(uuid "9abbfddf-74c5-459c-bb78-54f6e54bb659")
 		(property "Reference" "#PWR015"
-			(at 146.05 85.09 0)
+			(at 146.05 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,7 +5525,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 142.24 80.01 0)
+			(at 142.24 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6030,7 +5535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 81.28 0)
+			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6041,7 +5546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 81.28 0)
+			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +5557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 146.05 81.28 0)
+			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,93 +5574,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Mechanical_Shape")
-		(at 231.14 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a18e1429-f62f-4c74-92cd-8ebfc9bff099")
-		(property "Reference" "S2"
-			(at 234.95 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3 Pin Adapter"
-			(at 234.95 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mechanical shape, non-electric, board outlines"
-			(at 231.14 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "455-2219-ND"
-			(at 231.14 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6318,82 +5736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 147.32 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc5fb29d-6ecd-4d36-827e-813a7ede377a")
-		(property "Reference" "H15"
-			(at 149.86 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 149.86 167.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 147.32 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 147.32 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 215.9 50.8 0)
 		(unit 1)
@@ -6472,84 +5814,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c687e0d5-f2a8-4e61-8499-1ab7f7004e72")
-		(property "Reference" "#PWR08"
-			(at 67.31 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50932020-93b0-475e-860e-6ac2e1c88d6a")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 129.54 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -6621,176 +5885,6 @@
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 59.69 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dbe339ac-c4b8-45cc-9922-fce496f253b8")
-		(property "Reference" "R1"
-			(at 62.23 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 62.23 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 59.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 59.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 59.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "RMCF0805FT10K0CT-ND"
-			(at 59.69 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77017506-fa54-48f5-b188-16fa73998c30")
-		)
-		(pin "2"
-			(uuid "b7fdb48d-5ca2-47b4-a803-9bf36d113e25")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e13e52d5-abab-4586-a195-668d8e6db70e")
-		(property "Reference" "#PWR09"
-			(at 74.93 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d380efbb-7da3-47e5-a609-4e1434d07144")
-		)
-		(instances
-			(project "Rev2_AutoclaveDAQ"
-				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6876,7 +5970,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 111.76 134.62 0)
+		(at 123.19 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6886,8 +5980,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edc74200-6166-4906-a6bb-f28622b14747")
-		(property "Reference" "H17"
-			(at 114.3 133.3499 0)
+		(property "Reference" "H1"
+			(at 125.73 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6898,7 +5992,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 114.3 135.8899 0)
+			(at 125.73 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6909,7 +6003,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 111.76 134.62 0)
+			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +6014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 134.62 0)
+			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 111.76 134.62 0)
+			(at 123.19 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6944,7 +6038,7 @@
 		(instances
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H17")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7398,7 +6492,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 135.89 143.51 0)
+		(at 147.32 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7408,8 +6502,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3531e9-c2e4-4b5a-8542-be2b8e02438a")
-		(property "Reference" "H20"
-			(at 138.43 142.2399 0)
+		(property "Reference" "H4"
+			(at 149.86 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7420,7 +6514,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 138.43 144.7799 0)
+			(at 149.86 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7431,7 +6525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 135.89 143.51 0)
+			(at 147.32 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 143.51 0)
+			(at 147.32 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +6547,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 135.89 143.51 0)
+			(at 147.32 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,8 +6560,115 @@
 		(instances
 			(project "Rev2_AutoclaveDAQ"
 				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
-					(reference "H20")
+					(reference "H4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 107.95)
+		(size 22.86 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2fa17c75-62f9-44f2-bd0e-8b445585624f")
+		(property "Sheetname" "EthernetAdapter"
+			(at 218.44 107.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EthernetAdapter.kicad_sch"
+			(at 218.44 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 218.44 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "LED" input
+			(at 218.44 119.38 180)
+			(uuid "6c7dbea1-404e-45de-a65d-3d7a0ed062a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX+" output
+			(at 218.44 121.92 180)
+			(uuid "8c24b8c6-01d2-400c-af7e-465337592110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX-" output
+			(at 218.44 109.22 180)
+			(uuid "ed033357-454c-4f03-a1e9-a19b3dbdc525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX+" input
+			(at 218.44 114.3 180)
+			(uuid "5177ca88-ae36-4f98-9b9f-30dbc88d0aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX-" input
+			(at 218.44 116.84 180)
+			(uuid "19c4e79a-3b38-4869-851d-35ff5bad3bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rev2_AutoclaveDAQ"
+				(path "/89a659d8-01c5-43e7-90ea-953cf762d0d2"
+					(page "6")
 				)
 			)
 		)

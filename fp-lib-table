@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/PDL_kicad_footprints.pretty/Library.pretty") (options "") (descr "") (disabled))
+	(lib (name "PDL_kicad_footprints") (type "KiCad") (uri "${KIPRJMOD}/PDL_kicad_footprints.pretty") (options "") (descr ""))
+)

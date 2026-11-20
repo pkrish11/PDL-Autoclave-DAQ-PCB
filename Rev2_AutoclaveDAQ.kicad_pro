@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 1.8542,
+          "height": 2.3622,
+          "width": 2.3622
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.25,
-          "thermal_relief_spoke_width": 0.25
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -714,6 +714,30 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCE_URL",
+          "name": "SOURCE_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET_URL",
+          "name": "DATASHEET_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -752,6 +776,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -764,7 +796,7 @@
         "uuid": "89a659d8-01c5-43e7-90ea-953cf762d0d2"
       }
     ],
-    "used_designators": "D1-2,#PWR1-48,C1-11,U1-4,F1-2,JP1,H1-20,R1-7,R9-11,#FLG1-3,PS1,J1-11,S1-4",
+    "used_designators": "S1-4,J1-11,#FLG1-3,PS1-2,H1-20,R1-7,R9-11,R13-15,JP1,Q1-3,D1-6,#PWR1-52,C1-11,C13,U1-9,F1-2",
     "variants": []
   },
   "sheets": [
@@ -787,6 +819,10 @@
     [
       "7a6d5871-5510-4204-839e-0199826fb6ca",
       "Power"
+    ],
+    [
+      "2fa17c75-62f9-44f2-bd0e-8b445585624f",
+      "EthernetAdapter"
     ]
   ],
   "text_variables": {},
