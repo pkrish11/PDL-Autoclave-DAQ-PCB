@@ -1813,7 +1813,7 @@
 		(uuid "28dd5944-5076-4d02-a101-6749bff63930")
 	)
 	(junction
-		(at 128.27 67.31)
+		(at 130.81 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "295b9e62-1022-4ec1-98b6-1200240322e9")
@@ -1879,7 +1879,7 @@
 		(uuid "e8653ef5-7dc3-43dc-b88d-e32a0315076f")
 	)
 	(junction
-		(at 128.27 58.42)
+		(at 130.81 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e86863b5-ba2f-4592-b172-6b0b40aad1bc")
@@ -1938,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 128.27 71.12)
+			(xy 121.92 71.12) (xy 130.81 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1998,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 128.27 67.31)
+			(xy 125.73 67.31) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2078,7 +2078,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 67.31)
+			(xy 121.92 52.07) (xy 130.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579d751d-bdf6-4b93-aee5-7269d6dc95f7")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2108,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 128.27 58.42)
+			(xy 130.81 57.15) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2118,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 128.27 73.66)
+			(xy 121.92 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2328,23 +2338,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 128.27 59.69)
+			(xy 130.81 58.42) (xy 130.81 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b717f429-1ebb-4e93-a282-8c700ac79fa7")
-	)
-	(wire
-		(pts
-			(xy 121.92 52.07) (xy 128.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9939d94-a968-4381-a04c-63c3b4ca895d")
 	)
 	(wire
 		(pts
@@ -2378,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 128.27 58.42)
+			(xy 125.73 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 54.61) (xy 128.27 54.61)
+			(xy 121.92 54.61) (xy 130.81 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 128.27 68.58)
+			(xy 130.81 67.31) (xy 130.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2505,6 +2505,36 @@
 			(type default)
 		)
 		(uuid "fc3f7b28-78db-40fd-9959-5610a8cf699b")
+	)
+	(label "Heater 120V"
+		(at 121.92 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a48942a-bee1-458a-ada9-d2e6d853571f")
+	)
+	(label "PWRGND"
+		(at 125.73 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1721bcf2-9bfe-4be7-b8ed-2b6c734cbeb3")
+	)
+	(label "Wall 120V"
+		(at 121.92 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2aaadeb-0af4-4afe-8b4e-65c0b9e37392")
 	)
 	(hierarchical_label "relay_pressure_outlet"
 		(shape input)
@@ -4552,7 +4582,7 @@
 	)
 	(symbol
 		(lib_id "molex_connector:431602102")
-		(at 128.27 52.07 0)
+		(at 130.81 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4563,7 +4593,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce6f4a4c-c1d1-4b64-beb6-3c718549fb95")
 		(property "Reference" "J2"
-			(at 142.24 54.6099 0)
+			(at 144.78 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4574,7 +4604,7 @@
 			)
 		)
 		(property "Value" "Heater Connector"
-			(at 142.24 57.1499 0)
+			(at 144.78 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4585,7 +4615,7 @@
 			)
 		)
 		(property "Footprint" "PDL_kicad_footprints:molex_connector"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4639,7 @@
 			)
 		)
 		(property "Description" "Sabre Vertical Header, 7.50mm Pitch, 2 Circuits, Glow-Wire Capable, 3.81mm Tail Length, for 1.60mm PCB, with Board Lock"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4621,7 +4651,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4663,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4675,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4687,7 @@
 			)
 		)
 		(property "MPN" "431602102"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4669,7 +4699,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/431602102/Molex/view-part/"
-			(at 128.27 52.07 0)
+			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4891,7 @@
 	)
 	(symbol
 		(lib_id "molex_connector:431602102")
-		(at 128.27 66.04 0)
+		(at 130.81 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4872,7 +4902,7 @@
 		(fields_autoplaced yes)
 		(uuid "e422fa50-fca3-421b-9b3b-6755f01c4789")
 		(property "Reference" "J5"
-			(at 142.24 68.5799 0)
+			(at 144.78 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4883,7 +4913,7 @@
 			)
 		)
 		(property "Value" "Wall 120V"
-			(at 142.24 71.1199 0)
+			(at 144.78 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4894,7 +4924,7 @@
 			)
 		)
 		(property "Footprint" "PDL_kicad_footprints:molex_connector"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +4936,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4948,7 @@
 			)
 		)
 		(property "Description" "Sabre Vertical Header, 7.50mm Pitch, 2 Circuits, Glow-Wire Capable, 3.81mm Tail Length, for 1.60mm PCB, with Board Lock"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +4960,7 @@
 			)
 		)
 		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/431602102_Molex.pdf"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4942,7 +4972,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +4984,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +4996,7 @@
 			)
 		)
 		(property "MPN" "431602102"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4978,7 +5008,7 @@
 			)
 		)
 		(property "SOURCE_URL" "https://www.snapeda.com/parts/431602102/Molex/view-part/"
-			(at 128.27 66.04 0)
+			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
